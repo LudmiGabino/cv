@@ -1,0 +1,115 @@
+body {
+  background-color: rgb(240, 240, 232);
+  font-family: 'Roboto', sans-serif;
+}
+
+#barra-nav {
+  width: 30%;
+  position: fixed;
+  margin-top: 20px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.foto-perfil {
+  position: relative;
+  border-radius: 50%;
+}
+
+.nav-item {
+  margin: 10px;
+  padding: 20px;
+  background-color: burlywood;
+  border-radius: 15px;
+}
+
+#container {
+  width: 60%;
+  float: right;
+}
+
+h2 {
+  font-size: 30px;
+  padding-bottom: 4px;
+  border-bottom: 2px solid rgb(103, 127, 124);
+}
+
+h2,
+h3 {
+  color: rgb(103, 127, 124);
+}
+
+h1 {
+  color: rgb(65, 61, 57);
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+p,
+li {
+  color: rgb(96, 89, 79);
+  font-size: 17px;
+}
+
+p {
+  padding-bottom: 10px;
+}
+
+span,
+a {
+  color: rgb(96, 89, 79);
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.datos-personales {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+.datos-personales li {
+  color: black;
+  margin-bottom: 12px;
+}
+
+.titulo-seccion {
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+ul.descripcion {
+  list-style: circle;
+  padding-left: 20px;
+}
+
+#quien-soy,
+#formacion,
+#experiencia,
+#portfolio {
+  border: rgb(103, 127, 124) 5px solid;
+  background-color: whitesmoke;
+  padding: 20px 30px;
+  margin: 30px;
+  border-radius: 25px;
+}
+
+.portfolio {
+  height: 300px;
+  padding-right: 90px;
+}
+
+.portfolio img {
+  width: 150px;
+  height: 150px;
+  float: right;
+}
